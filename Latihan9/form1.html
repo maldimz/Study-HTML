@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML - Form 1</title>
+</head>
+<body>
+	<h1>Materi Form 1</h1>
+	<p>Membuat input form</p>
+	<h3>Ini dari form</h3>
+	<ol>
+		<li>Text Field</li>
+		<li>List Box</li>
+		<li>Radio Button</li>
+		<li>Check Box</li>
+	</ol>
+	<p><strong>Kunjungi</strong> instagram saya! <em>klik logo instagram</em></p>
+	<a href="https://www.instagram.com/akhmal_dimas/" target="_blank">
+		<img src="instagram.jpg" width="100">
+	</a>
+
+	<p><strong>Tugas!!</strong> untuk melihat tugas silahkan <a href="form2.html">klik di sini</a></p>
+
+	<form>
+		<!-- Element Form = input, textarea, select, button, label -->
+		<!-- <input type =""
+			text, password, radio, checkbox
+			
+			<button type=""></button>
+			(submit, reset, button)
+		 -->
+		 <label for="username">Username : </label>
+		 <input type="text" name="username" id="username">
+		 	<br>
+		 <label for="password">Password : </label>
+		 <input type="password" name="password" id="password">
+		 	<br>
+		 <input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+		 <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+		 	<br>
+		 <input type="checkbox" id="menyanyi"><label for="menyanyi">Menyanyi</label>
+		 <input type="checkbox" id="Menari"><label for="Menari">Menari</label>
+		 <input type="checkbox" id="Basket"><label for="Basket">Basket</label>
+		 <input type="checkbox" id="Futsal"><label for="Futsal">Futsal</label>
+		 <input type="checkbox" id="Ngoding"><label for="Ngoding">Ngoding</label>
+		 	<br> <br>
+		 <label for="kesan">Masukkan Kesan Dan Pesan : </label> <br>
+		 <textarea id="kesan"></textarea>
+		 	<br>
+		 <label for="tempatlahir">Tempat Lahir : </label>
+		 <select id="tempatlahir">
+		 	<option>Yogyakarta</option>
+		 	<option>Sleman</option>
+		 	<option>Jakarta</option>
+		 	<option>Bandung</option>
+		 </select>
+		 <br>
+		 <input type="submit" value="kirim!"> <!--tidak di sarankan -->
+	</form>
+
+</body>
+</html>

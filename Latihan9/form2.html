@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Form</title>
+</head>
+<body>
+	<h1>Tugas Materi Form</h1>
+	<p>Menggabungkan materi tabel dan form agar terlihat lebih rapi</p>
+	<p><strong>Kunjungi</strong> instagram saya! <em>klik logo instagram</em></p>
+	<a href="https://www.instagram.com/akhmal_dimas/" target="_blank">
+		<img src="instagram.jpg" width="100">
+	</a>
+
+	<p><em>Kembali ke materi</em> silahkan <a href="form1.html"><em>klik disini</em></a></p>
+	<hr>
+	<img src="tugas.png" width="300">
+	<hr>
+	<br>
+	<p><strong>Jawab</strong></p>
+
+	<form>
+		<table cellpadding="5">
+			<tr>
+				<td><label for="username">Username</label></td>
+				<td><input type="input" name="username" id="username"></td>
+			</tr>
+			<tr>
+				<td><label for="password">Password</label></td>
+				<td><input type="password" id="password"></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<label for="pria">Pria</label><input type="radio" name="jeniskelamin" id="pria"><label for="wanita">Wanita</label><input type="radio" name="jeniskelamin" id="wanita">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<label for="ngoding">Ngoding</label><input type="checkbox" id="ngoding">
+					<label for="ngegame">Main Game</label><input type="checkbox" id="ngegame">
+				</td>
+			</tr>
+			<tr>
+				<td><label for="tempatlahir">Tempat Lahir</label></td>
+				<td>
+					<select id="tempatlahir">
+						<option>Jombang</option>
+						<option>Sleman</option>
+						<option>Jakarta</option>
+						<option>Bandung</option>
+						<option>Yogyakarta</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="kesan">Kesan &<br>Pesan</label></td>
+				<td><textarea id="kesan"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Button"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+Isi dari Head di HTML
+  -Judul Halaman <title></title>
+  -CSS <style></style>
+  -JavaScript <script></script>
+  -Metadata <meta></meta>
+
+Isi dari Body
+  -Teks <h1>, <h2>, ..., <h6>, <p>, ...
+  -Pendukung Teks <br>, <hr>, <em>, <strong>, ...
+  -Gambar <img>
+  -Hyperlink <a>
+  -List (bullets & numbering) <ul>, <ol>, <li>, <dl>, <dt>, <dd>
+  -Tabel <table>, <thead>, <tbody>, ...
+  -Form <form>, <input>, <select>, <button>, ...
+  -Script <script>
+  -Object <object>
+  -Grouping <div>, <span>
+
+Tag Komentar
+ <!-- ini adalah komentar. -->
+
+Struktur tag
+  <namatag attribut="nilai">
+    cth <body bgcolor="lightblue"> *pemberian warna tugas dari css
+        <body bgcolor="lightblue" id="myid" class="myclass">
+
+Atribut Global
+  accesskey -> element ini dpt diakses oleh keyboard/shortcut
+  class & id -> tanda class apa id apa
+  dir -> menentukan arah tulis direction
+  lang -> language
+  style -> menyisipkan inline css
+  tabindec -> pencet tab fokus cursor pindah kemana
+  title -> judul
